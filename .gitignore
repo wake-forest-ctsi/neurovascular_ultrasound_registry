@@ -3,4 +3,6 @@
 target/
 dbt_packages/
 logs/
+
 .private/
+*.duckdb

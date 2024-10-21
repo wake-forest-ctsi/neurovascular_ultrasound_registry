@@ -1,0 +1,365 @@
+version: 2
+
+sources:
+  - name: intellisphere
+    description: ""
+    schema: raw
+    tables:
+      - name: echofindingcodesembeddedinstudy
+        description: ""
+        columns:
+          - name: performedprocedureid
+            data_type: bigint
+            description: ""
+          - name: codingscheme
+            data_type: varchar
+            description: ""
+          - name: findingcode
+            data_type: varchar
+            description: ""
+          - name: findingcodetext
+            data_type: varchar
+            description: ""
+          - name: menutext
+            data_type: varchar
+            description: ""
+          - name: severitycode
+            data_type: bigint
+            description: ""
+          - name: findinggroupid
+            data_type: bigint
+            description: ""
+          - name: sequenceingroup
+            data_type: bigint
+            description: ""
+          - name: patientid
+            data_type: bigint
+            description: ""
+          - name: reportversion
+            data_type: bigint
+            description: ""
+          - name: auxiliarytext
+            data_type: varchar
+            description: ""
+          - name: qualifierid
+            data_type: bigint
+            description: ""
+          - name: carotidvesselsegmentid
+            data_type: varchar
+            description: ""
+          - name: echolateralityid
+            data_type: varchar
+            description: ""
+          - name: reportprofileid
+            data_type: bigint
+            description: ""
+
+      - name: echostudies
+        description: ""
+        columns:
+          - name: performedprocedureid
+            data_type: bigint
+            description: ""
+          - name: procedurestatus
+            data_type: varchar
+            description: ""
+          - name: procedurestatusdbkey
+            data_type: bigint
+            description: ""
+          - name: procedurestartdate
+            data_type: timestamp
+            description: ""
+          - name: formattedproceduredate
+            data_type: date
+            description: ""
+          - name: patientid
+            data_type: bigint
+            description: ""
+          - name: patientlastname
+            data_type: varchar
+            description: ""
+          - name: patientfirstname
+            data_type: varchar
+            description: ""
+          - name: patientmiddlename
+            data_type: varchar
+            description: ""
+          - name: patientname
+            data_type: varchar
+            description: ""
+          - name: referringphysicianid
+            data_type: varchar
+            description: ""
+          - name: referringphysicianlastname
+            data_type: varchar
+            description: ""
+          - name: referringphysicianfirstname
+            data_type: varchar
+            description: ""
+          - name: referringphysicianmiddlename
+            data_type: varchar
+            description: ""
+          - name: referringphysician
+            data_type: varchar
+            description: ""
+          - name: orderingstaffid
+            data_type: varchar
+            description: ""
+          - name: orderingstafflastname
+            data_type: varchar
+            description: ""
+          - name: orderingstafffirstname
+            data_type: varchar
+            description: ""
+          - name: orderingstaffmiddlename
+            data_type: varchar
+            description: ""
+          - name: orderingstaff
+            data_type: varchar
+            description: ""
+          - name: technologistid
+            data_type: varchar
+            description: ""
+          - name: technologistlastname
+            data_type: varchar
+            description: ""
+          - name: technologistfirstname
+            data_type: varchar
+            description: ""
+          - name: technologistmiddlename
+            data_type: varchar
+            description: ""
+          - name: technologist
+            data_type: varchar
+            description: ""
+          - name: reviewerid
+            data_type: varchar
+            description: ""
+          - name: reviewerlastname
+            data_type: varchar
+            description: ""
+          - name: reviewerfirstname
+            data_type: varchar
+            description: ""
+          - name: reviewermiddlename
+            data_type: varchar
+            description: ""
+          - name: reviewer
+            data_type: varchar
+            description: ""
+          - name: readingphysicianid
+            data_type: varchar
+            description: ""
+          - name: readingphysicianlastname
+            data_type: varchar
+            description: ""
+          - name: readingphysicianfirstname
+            data_type: varchar
+            description: ""
+          - name: readingphysicianmiddlename
+            data_type: varchar
+            description: ""
+          - name: readingphysician
+            data_type: varchar
+            description: ""
+          - name: resulttophysicianid
+            data_type: varchar
+            description: ""
+          - name: resulttophysicianlastname
+            data_type: varchar
+            description: ""
+          - name: resulttophysicianfirstname
+            data_type: varchar
+            description: ""
+          - name: resulttophysicianmiddlename
+            data_type: varchar
+            description: ""
+          - name: resulttophysician
+            data_type: varchar
+            description: ""
+          - name: studylocationid
+            data_type: varchar
+            description: ""
+          - name: studylocation
+            data_type: varchar
+            description: ""
+          - name: patientclass
+            data_type: varchar
+            description: ""
+          - name: patientclasscode
+            data_type: varchar
+            description: ""
+          - name: echoreasonforstudyid
+            data_type: varchar
+            description: ""
+          - name: echoreasonforstudy
+            data_type: varchar
+            description: ""
+          - name: patientheight
+            data_type: varchar
+            description: ""
+          - name: heightunitofmeasure
+            data_type: varchar
+            description: ""
+          - name: patientweight
+            data_type: varchar
+            description: ""
+          - name: weightunitofmeasure
+            data_type: varchar
+            description: ""
+          - name: systolicpressure
+            data_type: varchar
+            description: ""
+          - name: diastolicpressure
+            data_type: varchar
+            description: ""
+          - name: pressureunitofmeasure
+            data_type: varchar
+            description: ""
+          - name: heartratebpm
+            data_type: varchar
+            description: ""
+          - name: primarystudyflag
+            data_type: bigint
+            description: ""
+          - name: statuslastchangeddatetime
+            data_type: timestamp
+            description: ""
+          - name: enteredname
+            data_type: varchar
+            description: ""
+          - name: enteredmrn
+            data_type: varchar
+            description: ""
+          - name: imageformat
+            data_type: varchar
+            description: ""
+          - name: printed
+            data_type: bigint
+            description: ""
+          - name: studytype
+            data_type: varchar
+            description: ""
+          - name: studytypecategory
+            data_type: varchar
+            description: ""
+          - name: studytypeshortname
+            data_type: varchar
+            description: ""
+          - name: imagequalityindex
+            data_type: varchar
+            description: ""
+          - name: protocolid
+            data_type: varchar
+            description: ""
+          - name: targetheartratebpm
+            data_type: varchar
+            description: ""
+          - name: targethroverride
+            data_type: bigint
+            description: ""
+          - name: percenttargetheartratebpm
+            data_type: varchar
+            description: ""
+          - name: percenttargethroverride
+            data_type: bigint
+            description: ""
+          - name: maxpredictedheartratebpm
+            data_type: varchar
+            description: ""
+          - name: maxpredictedhroverride
+            data_type: bigint
+            description: ""
+          - name: durationofstress
+            data_type: varchar
+            description: ""
+          - name: durationofstressoverride
+            data_type: bigint
+            description: ""
+          - name: durationofexercise
+            data_type: varchar
+            description: ""
+          - name: stressdrugid
+            data_type: varchar
+            description: ""
+          - name: durationofdruginfusion
+            data_type: varchar
+            description: ""
+          - name: mets
+            data_type: varchar
+            description: ""
+          - name: videotapenumber
+            data_type: varchar
+            description: ""
+          - name: locationonvideotape
+            data_type: varchar
+            description: ""
+          - name: priority
+            data_type: varchar
+            description: ""
+          - name: suggestedreportingprofileid
+            data_type: varchar
+            description: ""
+          - name: fillerordernumber
+            data_type: varchar
+            description: ""
+          - name: percentmaxpredictedheartratebpm
+            data_type: varchar
+            description: ""
+          - name: percentmaxpredictedhroverride
+            data_type: bigint
+            description: ""
+          - name: patientlocationid
+            data_type: varchar
+            description: ""
+          - name: patientlocation
+            data_type: varchar
+            description: ""
+          - name: studyconfig1
+            data_type: varchar
+            description: ""
+          - name: studyconfig2
+            data_type: varchar
+            description: ""
+          - name: studyconfig3
+            data_type: varchar
+            description: ""
+          - name: studyconfig4
+            data_type: varchar
+            description: ""
+          - name: studyconfig5
+            data_type: varchar
+            description: ""
+          - name: studyconfig6
+            data_type: varchar
+            description: ""
+          - name: studyconfig7
+            data_type: varchar
+            description: ""
+          - name: studyconfig8
+            data_type: varchar
+            description: ""
+          - name: studyconfig9
+            data_type: varchar
+            description: ""
+          - name: studyconfig10
+            data_type: varchar
+            description: ""
+          - name: modality
+            data_type: varchar
+            description: ""
+          - name: modalitytype
+            data_type: varchar
+            description: ""
+          - name: institutionid
+            data_type: bigint
+            description: ""
+          - name: institution
+            data_type: varchar
+            description: ""
+          - name: mrn
+            data_type: varchar
+            description: ""
+          - name: dateofbirth
+            data_type: varchar
+            description: ""

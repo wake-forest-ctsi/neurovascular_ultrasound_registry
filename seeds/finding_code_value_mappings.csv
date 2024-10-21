@@ -1,0 +1,7 @@
+Field_name, Value, Mapped_Value
+location, "OUTPATIENT / NEUROULTRASOUND DEPT.", 1
+location, "OUTPATIENT / DAVIE MED. CTR NEUROULTRASOUND DEPT.", 1
+location, ICU, 2
+location, "Patient Bedside", 3
+location, "ED / CDU", 4
+location, "ED / CDU - NEUROULTRASOUND DEPT.", 4
