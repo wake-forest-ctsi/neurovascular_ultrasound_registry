@@ -1,0 +1,7 @@
+{{ config(materialized='table') }}
+
+
+PIVOT {{ source('intellisphere', 'echofindingcodesembeddedinstudy') }}
+ON findinggroupid || ':' || findingcode
+USING first(findingcodetext)
+group by performedprocedureid

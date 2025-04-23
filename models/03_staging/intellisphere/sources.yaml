@@ -54,6 +54,9 @@ sources:
             data_type: bigint
             description: ""
 
+      - name: patient
+        description: ""
+
       - name: echostudies
         description: ""
         columns:

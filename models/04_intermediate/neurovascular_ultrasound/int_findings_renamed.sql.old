@@ -1,6 +1,7 @@
 select
-    int_findings_split.*
+    int_findings_split.PerformedProcedureID
     , finding_code_mappings.Field_Name
+    , int_findings_split.FindingCodeText
 from
     {{ ref('int_findings_split') }}
     left join {{ ref('finding_code_mappings') }} on finding_code_mappings.FindingCode = int_findings_split.FindingCode
